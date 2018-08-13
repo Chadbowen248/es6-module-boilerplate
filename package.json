@@ -1,0 +1,22 @@
+{
+  "name": "tiny-pipe",
+  "version": "1.0.0",
+  "description": "Utility to compose functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --watch"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "2.4.0"
+  }
+}
